@@ -17,11 +17,13 @@ class datosSeeder extends Seeder
       DB::table('datos')->insert([
           'nombre'=> 'Estructura de datos',
           'autor' => 'Luis Joyanes',
-      ]);
+        ]);
 
       DB::table('datos')->insert([
-          'nombre'=> 'Prog. Orientada a Objetos',
-          'autor' => 'Luis Joyanes'.
-      ]);
+          'nombre'=> 'Estructura de datos',
+          'autor' => 'Luis Joyanes',
+        ]);
+
+
     }
 }
